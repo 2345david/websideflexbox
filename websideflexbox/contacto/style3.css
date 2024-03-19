@@ -1,6 +1,6 @@
 body{
-    height: 100vh;
-    width: 100vw;
+    height: 98vh;
+    width: 98vw;
     background-color: beige;
 }
 
@@ -30,8 +30,75 @@ h1{
     display: flex;
 }
 
+.pap{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+img{
+    width: 150px;
+    justify-content: left;
+    align-items: left;
+    display: flex;
+}
+.nombre{
+    justify-content: right;
+    align-items: right;
+    display: flex;
+}
+
+.empresa{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
 .tabla{
     justify-content: center;
     align-items: center;
     display: flex;
+    width: 40%;
+    background-color:darkkhaki;
+    color: blue;
+}
+
+
+input[type="text"]{
+    outline-color: blue;
+    background-color: yellow;
+    border-radius: 10px 0 10px 0;
+    padding: 1.5%;
+}
+
+input[type="number"]{
+    outline-color: red;
+    background-color: orange;
+    border-radius: 10px 0 10px 0;
+    padding: 1.5%;
+}
+
+input[type="email"]{
+    outline-color: green;
+    background-color:chocolate;
+    border-radius: 10px 0 10px 0;
+    padding: 1.5%;
+}
+
+input[type="submit"]{
+    background-color: black;
+    color: white;
+    border-radius: 20%;
+}
+input[type="reset"]{
+    background-color: black;
+    color: white;
+    border-radius: 20%;
+}
+
+textarea{
+    width: 300px;
+    height: 50px;
+    background-color:aquamarine;
+    outline-style:inset
 }

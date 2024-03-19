@@ -1,8 +1,8 @@
 body{
     padding: 0;
     margin: 0;
-    height: 100vh;
-    width: 100vw;
+    height: 98vh;
+    width: 98vw;
     background-color: beige;
 }
 
@@ -63,3 +63,29 @@ h1{
     justify-content: center;
     gap: 50px;
 }
+
+.pap{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+img{
+    width: 150px;
+    justify-content: left;
+    align-items: left;
+    display: flex;
+}
+.nombre{
+    justify-content: right;
+    align-items: right;
+    display: flex;
+}
+
+.empresa{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
